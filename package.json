@@ -9,18 +9,13 @@
     "dev": "nuxt",
     "generate": "nuxt generate",
     "lint": "prettier --write '*.{js,vue}'",
+    "now-build": "shopware-pwa plugins --ci && shopware-pwa cms && shopware-pwa languages",
     "start": "nuxt start",
     "test": "jest"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@shopware-pwa/cli": "canary",
-    "@shopware-pwa/composables": "canary",
-    "@shopware-pwa/default-theme": "canary",
-    "@shopware-pwa/helpers": "canary",
-    "@shopware-pwa/nuxt-module": "canary",
-    "@shopware-pwa/shopware-6-client": "canary",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
